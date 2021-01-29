@@ -1,0 +1,345 @@
+ *{
+     margin: 0; 
+     padding: 0; 
+    font-family: Times,serif;
+} 
+
+body{
+	height: 100%; 
+	background-image: url('book.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+#about{
+    display: block;
+}
+
+#my{
+    position: absolute;
+    top: 12%;
+    left: 26%;   
+    color: mintcream;
+    border: 2.5px solid rosybrown;  
+    padding: 25px 25px;
+    font-family: cursive;
+    display: none;
+}
+
+.my{
+    position: absolute;
+    top: 12%;
+    left: 26%;   
+    color: mintcream;
+    border: 2.5px solid rosybrown;  
+    padding: 20px 25px;
+    font-family: cursive;
+    display: none;  
+}
+
+.aboutform{
+    top: 10%;
+    left: 15%;
+    text-align: center;
+    position: center;
+
+}
+
+.et{
+    top:13px;
+    left:225px;
+    position: absolute;
+    display: block;
+    font-size: 12px;
+}
+
+.usert{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid rosybrown;
+    font-size: 10px;
+}
+
+.aboutyou{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid rosybrown;
+    overflow: hidden;
+}
+
+.donet{
+    width: 150px;
+    height: 28px;
+    margin-left: 28%;
+    color: mintcream;
+    background-color: rosybrown;
+}
+
+.goback{
+    margin-top: 20px; 
+    width: 70px;
+    height: 20px;
+    margin-left: 28%;
+    color: rgb(246, 247, 246);
+    background-color: rgb(226, 185, 185);
+}
+
+.gotoab{
+    margin-top: 20px; 
+    width: 70px;
+    height: 20px;
+    margin-left: 28%;
+    color: rgb(246, 247, 246);
+    background-color: rgb(226, 185, 185);
+}
+
+.main ul{
+    float: right;
+    position: fixed;
+    left: 55%;
+    list-style-type: none;
+    top: 30px;
+}
+
+.main ul li{
+    display: inline;
+}
+
+.main ul li a{
+    text-decoration: none;
+    color:rgb(38, 78, 90);
+    padding: 5px 20px;
+    font-size: 14px;
+    border: 1px solid rgb(43, 104, 133);
+    transition: 0.5s ease;
+}
+
+.main ul li.active a {
+    background-color:rgb(43, 104, 133);
+    color: lightblue;
+}
+
+.main ul li a:hover{
+    background-color:rgb(43, 104, 133);
+    color: lightblue;
+}
+
+.addnew{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: rgb(38, 78, 90);
+    padding: 5px 20px ;
+    /* background-color: rgb(43, 104, 133); */
+    border: 1px solid rgb(43, 104, 133);
+    transition: 0.5s ease;
+}
+
+.s1{
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    color: rgb(38, 78, 90);
+    padding: 5px 20px ;
+    /* background-color: rgb(43, 104, 133); */
+    border: 1px solid rgb(43, 104, 133);
+    transition: 0.5s ease;
+}
+
+.suser{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    color: rgb(38, 78, 90);
+    padding: 5px 20px ;
+    /* background-color: rgb(43, 104, 133); */
+    border: 1px solid rgb(43, 104, 133);
+    transition: 0.5s ease;
+}
+
+.addnew:hover{
+    background-color:rgb(43, 104, 133);
+    color: lightblue;
+}
+
+.s1:hover{
+    background-color:rgb(43, 104, 133);
+    color: lightblue;
+}
+
+/* .addnew{
+    color:lightblue; 
+    background-color: rgb(43, 104, 133);
+    border: 1px solid rgb(43, 104, 133);
+
+}  */
+
+.links1{
+    border-radius: 50%;
+    height: 6vh;
+    padding: 10px;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: auto; 
+}
+
+.links2{
+    border-radius: 50%;
+    height: 6vh;
+    padding: 10px;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.title{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.titlegal{
+    position: absolute;
+    top:13%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: rgb(11, 68, 94);
+    font-size: 60px;
+}
+
+.titlegal h1{
+    color: rgb(11, 68, 94);
+    font-size: 60px;
+}
+
+.title2{
+    position: absolute;
+    top:50%;
+    left:62%;
+}
+
+.title2 h2{
+    color: lightblue;
+    font-size: 25px;
+}
+
+.title2gal{
+    position: absolute;
+    top:18%;
+    left: 37%;
+}
+
+.title2gal h2{
+    color: lightblue;
+    font-size: 25px;
+}
+
+.wrap{
+    position: fixed;
+    bottom: 2%;
+    left: 45%;
+    
+}
+
+.wrapp{
+    position: fixed;
+    bottom: 0%;
+    left: 45%;
+    
+}
+
+.abio li{
+    list-style: none; 
+    position: relative;  
+    line-height: 25px;
+    text-align: left;
+}
+
+.abio{
+    position: absolute;
+    top: 20%;
+    left: 5%;  
+    color: rgb(208, 207, 194);
+    padding: 60px 40px;
+    background-color: rgba(138, 101, 8, 0.637);
+}
+
+.sbio li{
+    list-style: none; 
+    position: relative;  
+    line-height: 25px;
+    text-align: left;
+}
+
+/* .go li{
+    list-style: none; 
+    position: relative;  
+    line-height: 25px;
+    text-align: left;
+}
+
+.go{
+        position: absolute;
+         top: 20%;
+        left: 55%;   
+        color: rgb(208, 207, 194);
+        padding: 60px 40px;
+        background-color: rgba(138, 101, 8, 0.637);
+} */
+
+.sbio{
+    position: absolute;
+    top: 20%;
+    left: 55%;  
+    color: rgb(208, 207, 194);
+    padding: 60px 40px;
+    background-color: rgba(138, 101, 8, 0.637);
+}
+
+.blog1 h1{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(238, 223, 132)
+}
+
+.blog1{
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    padding: 30px 25px;
+    color: blanchedalmond;
+    border: 1px solid rgb(212, 163, 89);
+    text-align: center;
+    background-color: rgba(109, 85, 25, 0.637);
+    
+}
+
+.blog2 h1{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(238, 223, 132)
+}
+
+.blog2{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    padding: 32px 27px;
+    color: blanchedalmond;
+    border: 1px solid rgb(212, 163, 89);
+    text-align: center;
+    background-color: rgba(109, 85, 25, 0.637);   
+}
+
+
+
+
+
+
+

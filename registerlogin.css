@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('backkkkk.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.loginform{
+    position: absolute;
+    top: 30%;
+    left: 33%;   
+    color: mintcream;
+    border: 2.5px solid rosybrown;  
+    padding: 52px 50px;  
+}
+
+.registerform{
+    position: absolute;
+    top: 12%;
+    left: 33%;   
+    color: mintcream;
+    border: 2.5px solid rosybrown;  
+    padding: 50px 45px;  
+}
+
+#loginform{
+    display: block;  
+}
+
+#registerform{
+    position: absolute;
+    top: 12%;
+    left: 33%;   
+    color: mintcream;
+    border: 2.5px solid rosybrown;  
+    padding: 52px 50px;
+    display: none;
+}
+
+.usert{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid rosybrown;
+}
+.logt{
+    width: 150px;
+    height: 28px;
+    margin-left: 28%;
+    color: mintcream;
+    background-color: rosybrown;
+}
+
+.logt:hover{
+    color: teal;
+    background-color: mintcream;
+}
+.regbut{
+    width: 180px;
+    height: 22px;
+    border: solid rosybrown;
+}
+
+.register{
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.titlegal{
+   position: absolute;
+    top:5%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+}
+
+.titlegal h1{
+    color: rgb(230, 131, 131);
+    font-size: 25px;
+}
+
+.title2gal{
+    position: absolute;
+    top:7%;
+    left: 52%;
+}
+
+.title2gal h2{
+    color: rgb(225, 220, 220);
+    font-size: 16px;
+}
+
